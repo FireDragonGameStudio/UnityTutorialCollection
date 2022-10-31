@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/CountdownScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/HealthbarsInAR.unity
+    guid: aad038c56aaa7ed44ac61b0cb2af7d9a
+  - enabled: 0
+    path: Assets/Scenes/DeepLink/DeepLinkStart.unity
+    guid: e81a8673afcf1b6439f27bdde4589002
+  - enabled: 0
+    path: Assets/Scenes/DeepLink/DeepLinkLoad.unity
+    guid: 9fdd589836f4ac14890ac52641f39c70
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 93dd72410bc913640888965e8599fa5e, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 110b8b4a24e182343a9ab8acad42b891, type: 2}
